@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 60px;
+  height: 50px;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5;
+}
+
+/* Headings */
+.cont-1 {
+  padding: 3% 15% 12%;
+}
+
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.card {
+  width: 50%;
+  display: inline-block;
+}
+
+/* Sections */
+.colored-section {
+  background: #DDFFBC;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 15px 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background: #fff;
+  position: relative;
+  /* no z-index because it's relative and will sit on top of the absolute */
+}
+
+.features-item {
+  margin-bottom: 1.5rem;
+}
+
+.features-div {
+  text-align: left;
+}
+
+.features-image {
+  width: 40%;
+  float: left;
+}
+
+.feature-icons {
+  color: #8ac4d0;
+  padding-bottom: 15px;
+}
+
+.feature-icons:hover {
+  color: #28527a;
+}
+
+.features-box {
+  font-family: "Montserrat";
+  padding: 4.5%;
+}
+
+.titles {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* CTA Section */
+#cont-2 {
+  padding: 6% 7%;
+}
+
+.ic {
+  padding: 10px;
+}
+
+.foot {
+  padding: 5% 15%;
+}
+
+.cpright {
+  color: #8F8F8F;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .form-inline {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .last-box {
+    margin: 0 auto;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+  .card-body {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .features-item {
+    font-size: 0.8rem;
+  }
+}
+
+/* Dark mode class */
+.dark,
+.dark * {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+}
+
+/* Switch design */
+.switch {
+    align-self: flex-end;
+    margin: 0.9375rem;
+}
+
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
